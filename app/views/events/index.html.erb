@@ -1,0 +1,17 @@
+<%= link_to "New Event", new_event_path %>
+
+<div><%  @events.each do |event| %></div>
+
+  <%= event.date %>
+  <p></p>
+  <%= event.description %>
+  <p></p>
+  <%= event.capacity %>
+  <p></p>
+  <%= event.directions %>
+  <p></p>
+  Need ID ? <%= event.ID %>
+  <p>______________________________</p>
+  <% end %>
+
+</div>

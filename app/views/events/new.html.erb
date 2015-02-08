@@ -1,0 +1,24 @@
+
+<%= form_for @event do |f| %>
+  Date <%= f.date_field :date %>
+  <p>
+
+  </p>
+  Description <%= f.text_field :description %>
+  <p>
+
+  </p>
+  Capactiy <%= f.number_field :capacity %>
+  <p>
+
+  </p>
+  Directions <%= f.text_field :directions %>
+  <p>
+
+  </p>
+  ID ? <%= f.check_box :ID %>
+  <p>
+
+  </p>
+  <%= f.submit %>
+<% end %>

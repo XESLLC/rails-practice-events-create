@@ -1,0 +1,1 @@
+rails generate migration CreateEvents date:date description:text capacity:integer directions:text
